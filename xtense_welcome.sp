@@ -22,7 +22,7 @@ public Plugin myinfo = {
     url = "http://www.sourcemod.net/"
 };
 
-public OnClientPostAdminCheck(int client)
+public void OnClientPostAdminCheck(int client)
 {
     char cName[64], steamID[128];
 
@@ -36,7 +36,7 @@ public OnClientPostAdminCheck(int client)
     }
 }
 
-public OnClientDisconnect(int client)
+public void OnClientDisconnect(int client)
 {
     char cName[64], steamID[128];
 

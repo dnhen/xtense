@@ -15,7 +15,7 @@ public void OnPluginStart()
     HookEvent("player_death", Event_PlayerDeath)
 }
 
-public Action Event_PlayerDeath(Event event, const char[] name, bool dontBroadcast)
+public void Event_PlayerDeath(Event event, const char[] name, bool dontBroadcast)
 {
     // Get victims user id -> client id -> victims username
     int victimUID = GetEventInt(event, "userid");
