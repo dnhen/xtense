@@ -2,8 +2,8 @@
 #include <sdktools>
 #include <cstrike>
 
-public Plugin:myinfo = {
-    name = "XTENSE :: Console Deaths",
+public Plugin myinfo = {
+    name = "Xtense :: Console Deaths",
     author = "dnhen",
     description = "Print deaths in console like CS:S",
     version = "0.1",
