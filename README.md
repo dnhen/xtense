@@ -2,7 +2,10 @@
 
 Addon scripts for SourceMod (https://www.sourcemod.net/), primarily for CSGO.
 
-To download the addons, click [here](https://github.com/dnhen/sm_scripts/tree/main/compiled).
+### How to install?
+1. Download the required addons from [here](https://github.com/dnhen/sm_scripts/tree/main/compiled).
+2. Move the .smx file to your 'plugins' directory (csgo/addons/sourcemod/plugins/).
+3. In your server console, run the command 'sm plugins load <plugin_name.smx>'.
 
 ### Xtense Suite (CS:GO Jailbreak Modules)
 The Xtense suite is developped primarily for CS:GO Jailbreak server types. It is developed in a modular, lightweight way to allow server owners to pick and choose exactly what features they want on their server without overloading on unnecessary plugins.
