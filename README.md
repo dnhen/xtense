@@ -1,6 +1,6 @@
 # Xtense
 
-Addon scripts for SourceMod (https://www.sourcemod.net/), primarily for CSGO.
+Extensive addon scripts for SourceMod (https://www.sourcemod.net/), primarily for CSGO.
 
 ### How to install?
 1. Download the required addons from [here](https://github.com/dnhen/sm_scripts/tree/main/compiled).
