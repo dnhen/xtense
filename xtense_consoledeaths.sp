@@ -10,7 +10,7 @@ public Plugin myinfo = {
     url = "http://www.sourcemod.net/"
 };
 
-public OnPluginStart()
+public void OnPluginStart()
 {
     HookEvent("player_death", Event_PlayerDeath)
 }
