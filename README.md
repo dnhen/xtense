@@ -15,6 +15,9 @@ The Xtense suite is developped primarily for CS:GO Jailbreak server types. It is
 
     ![welcome_demo](https://user-images.githubusercontent.com/69449713/129579874-72f35953-9d70-469b-9066-d94ab8f7607c.PNG)
 
+- **Strip** (xtense_strip)
+  - Each time a player spawns, they are stripped of all their weapons and given a knife.
+
 - **Console Deaths** (xtense_consoledeaths)
   - Console deaths displays deaths in each players console, similar to that in CS:S. The death displays as "Attacker killed Victim with Weapon", e.g. "Bob killed Fred with weapon_ak47"
 
