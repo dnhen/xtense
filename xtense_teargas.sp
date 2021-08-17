@@ -52,6 +52,7 @@ public Action Event_SmokeNade(Event event, const char[] name, bool dontBroadcast
     CreateTimer(FREEZETIME, Timer_EndFreeze);
     CreateTimer(DAMAGETIME, Timer_EndSmoke, index);
 
+    // Check all players, if they are in the smoke freeze them
     for(int i = 1; i < MAXPLAYERS; i++){
         if(IsClientInGame(i) && IsPlayerAlive(i)){
             float clientPos[3];
@@ -66,6 +67,7 @@ public Action Event_SmokeNade(Event event, const char[] name, bool dontBroadcast
     return Plugin_Handled;
 }
 
+// When the smoke nade expires -> timer to handle the unfreezing of those that were frozen due to smoke
 public Action Timer_EndFreeze(Handle Timer){
     for(int i = 1; i < MAXPLAYERS; i++){
         if(IsClientInGame(i) && IsPlayerAlive(i)){
@@ -75,6 +77,14 @@ public Action Timer_EndFreeze(Handle Timer){
     }
 }
 
-public Action Timer_EndSmoke(Handle Timer, int index){ // Remove the point hurt from the smoke
+// When the smoke nade expires -> timer to handle the removing of the point hurt from the smoke
+public Action Timer_EndSmoke(Handle Timer, int index){
     AcceptEntityInput(index, "Kill");
+}
+
+// Handle player noblock (so no players collide with each other)
+public Action OnPlayerRunCmd(int client){
+    if(IsClientInGame(client) && IsPlayerAlive(client)){
+        SetEntProp(client, Prop_Data, "m_CollisionGroup", 2); // Set player to be able to walk through other players
+    }
 }
