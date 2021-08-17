@@ -23,3 +23,5 @@ The Xtense suite is developped primarily for CS:GO Jailbreak server types. It is
 
     ![consoledeaths_demo](https://user-images.githubusercontent.com/69449713/129579510-a4613e23-ed92-4181-9c69-81b79c6e7bbe.PNG)
 
+- **Teargas** (xtense_teargas)
+  - Smoke grenades act as teargas, issuing damage to any players in the radius of the grenade whilst the smoke is showing, and freezes players inside the smoke for a predefined period if it detonates in them.
