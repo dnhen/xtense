@@ -18,6 +18,9 @@ The Xtense suite is developped primarily for CS:GO Jailbreak server types. It is
 - **Strip** (xtense_strip)
   - Each time a player spawns, they are stripped of all their weapons and given a knife.
 
+- **Voice** (xtense_voice)
+  - Mutes all Ts for the first 60 seconds of the round (except admins). Unmutes all players (except those muted by admins) at the end of each round.
+
 - **Console Deaths** (xtense_consoledeaths)
   - Console deaths displays deaths in each players console, similar to that in CS:S. The death displays as "Attacker killed Victim with Weapon", e.g. "Bob killed Fred with weapon_ak47"
 
