@@ -17,7 +17,7 @@ The Xtense suite is developped primarily for CS:GO Jailbreak server types. It is
 
 - **Rollback** (xtense_rollback)
   - Rollback allows admins to roll back time, to a set time in the round. Once the command is executed, all players will be teleported to where they were the time the admin sets in the command, with the same health, same team, and same alive status.
-    - Command: !rollback <time (seconds)>
+    - !rollback <time (seconds)>
   
     ![rollback](https://user-images.githubusercontent.com/69449713/130625817-99661d6f-7cdc-44da-8d88-86c144edae18.PNG)  
 
