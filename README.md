@@ -19,7 +19,7 @@ The Xtense suite is developped primarily for CS:GO Jailbreak server types. It is
   - Rollback allows admins to roll back time, to a set time in the round. Once the command is executed, all players will be teleported to where they were the time the admin sets in the command, with the same health, same team, and same alive status.
     - Command: !rollback <time (seconds)>
   
-  ![rollback](https://user-images.githubusercontent.com/69449713/130625817-99661d6f-7cdc-44da-8d88-86c144edae18.PNG)  
+    ![rollback](https://user-images.githubusercontent.com/69449713/130625817-99661d6f-7cdc-44da-8d88-86c144edae18.PNG)  
 
 
 - **Strip** (xtense_strip)
@@ -27,9 +27,10 @@ The Xtense suite is developped primarily for CS:GO Jailbreak server types. It is
 
 - **Voice** (xtense_voice)
   - Mutes all Ts for the first 60 seconds of the round (except admins). Unmutes all players (except those muted by admins) at the end of each round.
-  - 
-  ![muted](https://user-images.githubusercontent.com/69449713/130625734-b5a90a66-2d3b-413d-a314-9ddded04a043.PNG)
-  ![speak](https://user-images.githubusercontent.com/69449713/130625757-46691008-dcd8-4683-864c-a9485bf35798.PNG)
+
+    ![muted](https://user-images.githubusercontent.com/69449713/130625734-b5a90a66-2d3b-413d-a314-9ddded04a043.PNG)
+  
+    ![speak](https://user-images.githubusercontent.com/69449713/130625757-46691008-dcd8-4683-864c-a9485bf35798.PNG)
 
 
 - **Console Deaths** (xtense_consoledeaths)
