@@ -15,6 +15,10 @@ The Xtense suite is developped primarily for CS:GO Jailbreak server types. It is
 
     ![welcome_demo](https://user-images.githubusercontent.com/69449713/129579874-72f35953-9d70-469b-9066-d94ab8f7607c.PNG)
 
+- **Rollback** (xtense_rollback)
+  - Rollback allows admins to roll back time, to a set time in the round. Once the command is executed, all players will be teleported to where they were the time the admin sets in the command, with the same health, same team, and same alive status.
+    - Command: !rollback <time (seconds)>
+
 - **Strip** (xtense_strip)
   - Each time a player spawns, they are stripped of all their weapons and given a knife.
 
