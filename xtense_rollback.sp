@@ -26,13 +26,15 @@ public void OnPluginStart()
 {
     RegAdminCmd("rollback", Command_Rollback , ADMFLAG_GENERIC);
 
-    PrecacheSound("weapons/c4/c4_beep1.wav");
-    PrecacheSound("weapons/c4/c4_disarm.wav");
-
     HookEvent("round_start", Event_RoundStart);
     HookEvent("round_end", Event_RoundEnd);
 
     CreateTimer(1.0, Timer_RollbackLog, _, TIMER_REPEAT); // Global rollback log timer
+}
+
+public void OnMapStart(){
+    PrecacheSound("weapons/c4/c4_beep1.wav");
+    PrecacheSound("weapons/c4/c4_disarm.wav");
 }
 
 public void Event_RoundStart(Event event, const char[] name, bool dontBroadcast){
