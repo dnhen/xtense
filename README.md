@@ -41,8 +41,9 @@ The Xtense Core Suite is developped primarily for CS:GO Jailbreak server types. 
 - **Teargas** (xtense_teargas)
   - Smoke grenades act as teargas, issuing damage to any players in the radius of the grenade whilst the smoke is showing, and freezes players inside the smoke for a predefined period if it detonates in them. This plugins also adds noblock to all players, meaning players can walk through each other (CTs and Ts). This is to enable the ability to smoke enemy team mates.
 
-### Xtense VIP Suite (CS:GO VIP System Modules)
-The Xtense VIP Suite is a lightweight modular VIP system, that integrates with a back-end database and allows server managers to manage VIPs easilly. Each module adds new VIP features and commands, and each module can be easily added and removed as the server manager wishes. The VIP Suite can be integrated with the VIP Suite Front-End.
+### Xtense Admin Suite (CS:GO Admin System Modules)
+The Xtense Admin Suite is a light weight modular admin system, which is a simple drag and drop to install. See below, the admin commands that are contained in the system.
 
-- **TBA** (xtense_vip)
-  - Core VIP system. This addon is a requirement before installing any other VIP modules. This core VIP system integrates with every other module, and enables communication between modules, the back-end database, and the front-end.
+- **Admin** (xtense_admin)
+  - Core admin system. All below commands are featured in this plugin.
+    - # <message> : prints in chat and in HUD an admin broadcast
