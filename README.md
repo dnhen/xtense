@@ -45,4 +45,4 @@ The Xtense Core Suite is developped primarily for CS:GO Jailbreak server types. 
 The Xtense VIP Suite is a lightweight modular VIP system, that integrates with a back-end database and allows server managers to manage VIPs easilly. Each module adds new VIP features and commands, and each module can be easily added and removed as the server manager wishes. The VIP Suite can be integrated with the VIP Suite Front-End.
 
 - **TBA** (xtense_vip)
-  - Core VIP system. This addon is a requirement before installing any other VIP addons.
+  - Core VIP system. This addon is a requirement before installing any other VIP modules. This core VIP system integrates with every other module, and enables communication between modules, the back-end database, and the front-end.
