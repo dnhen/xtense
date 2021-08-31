@@ -46,4 +46,4 @@ The Xtense Admin Suite is a light weight modular admin system, which is a simple
 
 - **Admin** (xtense_admin)
   - Core admin system. All below commands are featured in this plugin.
-    - # <message> : prints in chat and in HUD an admin broadcast
+    - \# <message> : prints in chat and in HUD an admin broadcast
