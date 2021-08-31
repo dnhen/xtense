@@ -8,7 +8,7 @@ Extensive addon scripts for SourceMod (https://www.sourcemod.net/), primarily fo
 3. Either restart your server, or in your server console run the command 'sm plugins load <plugin_name.smx>'.
 
 ### Xtense Core Suite (CS:GO Jailbreak Modules)
-The Xtense suite is developped primarily for CS:GO Jailbreak server types. It is developed in a modular, lightweight way to allow server owners to pick and choose exactly what features they want on their server without overloading on unnecessary plugins.
+The Xtense Core Suite is developped primarily for CS:GO Jailbreak server types. It is developed in a modular, lightweight way to allow server owners to pick and choose exactly what features they want on their server without overloading on unnecessary plugins.
 
 - **Welcome** (xtense_welcome)
   - Welcome displays in the server chat and server console, the steamID and username of all connecting and disconnecting players, with a built in 30 second cooldown to prevent user spam, e.g. "\[STEAM_0:1:12903982\] Bob is joining the game."
@@ -40,3 +40,9 @@ The Xtense suite is developped primarily for CS:GO Jailbreak server types. It is
 
 - **Teargas** (xtense_teargas)
   - Smoke grenades act as teargas, issuing damage to any players in the radius of the grenade whilst the smoke is showing, and freezes players inside the smoke for a predefined period if it detonates in them. This plugins also adds noblock to all players, meaning players can walk through each other (CTs and Ts). This is to enable the ability to smoke enemy team mates.
+
+### Xtense VIP Suite (CS:GO VIP System Modules)
+The Xtense VIP Suite is a lightweight modular VIP system, that integrates with a back-end database and allows server managers to manage VIPs easilly. Each module adds new VIP features and commands, and each module can be easily added and removed as the server manager wishes. The VIP Suite can be integrated with the VIP Suite Front-End.
+
+- **TBA** (xtense_vip)
+  - Core VIP system. This addon is a requirement before installing any other VIP addons.
