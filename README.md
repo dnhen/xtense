@@ -17,6 +17,7 @@ The Xtense Core Suite is developped primarily for CS:GO Jailbreak server types. 
 
 - **Admin** (xtense_admin)
   - Core admin system. Adds all of the most frequent admin commands to the game; imperative for any large server.
+
     - \# \<message\> : prints in chat and in HUD an admin broadcast
 
 - **Rollback** (xtense_rollback)
