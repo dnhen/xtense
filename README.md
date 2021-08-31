@@ -15,6 +15,10 @@ The Xtense Core Suite is developped primarily for CS:GO Jailbreak server types. 
 
     ![welcome_demo](https://user-images.githubusercontent.com/69449713/129579874-72f35953-9d70-469b-9066-d94ab8f7607c.PNG)
 
+- **Admin** (xtense_admin)
+  - Core admin system. Adds all of the most frequent admin commands to the game; imperative for any large server.
+    - \# \<message\> : prints in chat and in HUD an admin broadcast
+
 - **Rollback** (xtense_rollback)
   - Rollback allows admins to roll back time, to a set time in the round. Once the command is executed, all players will be teleported to where they were the time the admin sets in the command, with the same health, same team, and same alive status.
     - !rollback <time (seconds)>
@@ -40,10 +44,3 @@ The Xtense Core Suite is developped primarily for CS:GO Jailbreak server types. 
 
 - **Teargas** (xtense_teargas)
   - Smoke grenades act as teargas, issuing damage to any players in the radius of the grenade whilst the smoke is showing, and freezes players inside the smoke for a predefined period if it detonates in them. This plugins also adds noblock to all players, meaning players can walk through each other (CTs and Ts). This is to enable the ability to smoke enemy team mates.
-
-### Xtense Admin Suite (CS:GO Admin System Modules)
-The Xtense Admin Suite is a light weight modular admin system, which is a simple drag and drop to install. See below, the admin commands that are contained in the system.
-
-- **Admin** (xtense_admin)
-  - Core admin system. All below commands are featured in this plugin.
-    - \# \<message\> : prints in chat and in HUD an admin broadcast
